@@ -28,5 +28,15 @@
     "totalSpent": 2000,
     "lastOrderDaysAgo": 210,
     "preferredCategory": "Apparel"
+  },
+  {
+    "id": "cust_1781455038027",
+    "name": "Guru sharan",
+    "email": "prajapatiom123321@gmail.com",
+    "phone": "8207629969",
+    "totalOrders": 10,
+    "totalSpent": 5000,
+    "lastOrderDaysAgo": 5,
+    "preferredCategory": "Apparel"
   }
 ]
