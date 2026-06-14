@@ -64,7 +64,8 @@ app.post('/api/campaigns/send', async (req, res) => {
     `;
 
     // Pure public web API URL mapping bypassing OAuth and enterprise project checks
-    const googleEndpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+    // Updated to use the active production model name
+    const googleEndpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
     // Dispatch raw standard HTTP payload packet combining system context safely
     const googleResponse = await axios.post(googleEndpoint, {
