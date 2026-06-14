@@ -20,7 +20,7 @@ export default function Signup() {
         right: "15%",
         width: "300px",
         height: "300px",
-        background: "radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(0,0,0,0) 70%)",
+        background: "radial-gradient(circle, var(--panel-glow) 0%, rgba(0,0,0,0) 70%)",
         borderRadius: "50%",
         zIndex: 0
       }} />
@@ -30,7 +30,7 @@ export default function Signup() {
         left: "15%",
         width: "350px",
         height: "350px",
-        background: "radial-gradient(circle, rgba(99, 102, 241, 0.12) 0%, rgba(0,0,0,0) 70%)",
+        background: "radial-gradient(circle, var(--primary-glow) 0%, rgba(0,0,0,0) 70%)",
         borderRadius: "50%",
         zIndex: 0
       }} />
