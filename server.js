@@ -74,7 +74,7 @@ app.post('/api/campaigns/send', async (req, res) => {
             { text: `${systemInstruction}\n\nUser Request to translate: "${prompt}"` }
           ] 
         }
-      ],r
+      ],
       generationConfig: { 
         temperature: 0.1 
       }
